@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .responsive-img {
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .responsive-img {
+      max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .title_fairy {
+      text-align: start;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title_fairy {
+        text-align: center;
+    }
+}

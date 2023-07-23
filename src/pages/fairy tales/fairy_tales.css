@@ -1,0 +1,26 @@
+.main-carousels {
+  background: #1A1D29;
+}
+
+.title_fairy {
+  line-height: 23.46px;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Work Sans;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 50px;
+}
+  
+.carousel {
+  margin-bottom: 56px;
+}
+
+.last_carousel {
+  margin-bottom: 54px;
+}

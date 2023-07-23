@@ -1,0 +1,18 @@
+.main-home {
+    background-image: url(../../assets/cover.png);
+    background-repeat: no-repeat;
+    background-size:cover;    
+}
+
+.content {
+    margin: 300px 0 100px 0;
+}
+
+.header-text {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: Work Sans;
+    color: white;
+}
