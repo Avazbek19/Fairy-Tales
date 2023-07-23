@@ -1,0 +1,29 @@
+.main-footer {
+    background: #090B13;
+    padding-top: 50px;
+}
+
+.box_link {
+   margin: 32.14px 0px 0px !important;
+   padding: 0px;
+}
+
+.footer_links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 0px;
+}
+
+.footer_content_box {
+    margin-top: 36px !important;
+}                       
+
+.footer_content {
+    font-family: Lato;
+    line-height: 18px;
+    color: white;   
+    font-weight: 400;
+    font-size: 12px;
+}
