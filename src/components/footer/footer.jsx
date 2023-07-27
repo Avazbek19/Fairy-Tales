@@ -5,37 +5,43 @@ import './footer_media.css'
 export default function Footer() {
   return (
     <div className='main-footer'>
-        <div className="row justify-content-center">
-            <div className="col-sm-10 col-md-6 col-lg-4 text-center">
-                <img src="/logo.png" alt="logo" />
+        <div className="footer_item_box">
+            <div className="img_icon">
+                <div className="footer_item_icon">
+                    <img className='w-100' src="/logo.png" alt="logo" />
+                </div>
             </div>
-            <div className="col-sm-10 col-md-6 col-lg-9 box_link">
-                <ul className='text-center list-unstyled footer_links'>
-                    <li className="text-sm-center text-center footer_links_item">
-                        <a className='text-decoration-none text-white links' href="">Política de privacidad</a>
+            <div className="footer_item_links">
+                <ul className='footer_link_base'>
+                    <li className='footer_link'>
+                        <a className='link_item' href="">Política de privacidad</a>
                     </li>
-                    <li className="text-sm-center text-center footer_links_item">
-                        <a className='text-decoration-none text-white links' href="">Acuerdo de suscripción</a>
+                    <li className='footer_link'>
+                        <a className='link_item' href="">Acuerdo de suscripción</a>
                     </li>
-                    <li className="text-sm-center text-center footer_links_item">
-                        <a className='text-decoration-none text-white links' href="">Ayuda</a>
+                    <li className='footer_link'>
+                        <a className='link_item' href="">Ayuda</a>
                     </li>
-                    <li className="text-sm-center text-center footer_links_item">
-                        <a className='text-decoration-none text-white links' href="">Dispositivos compatible</a>
+                    <li className='footer_link'>
+                        <a className='link_item' href="">Dispositivos compatible</a>
                     </li>
-                    <li className="text-sm-center text-center footer_links_item">
-                        <a className='text-decoration-none text-white links' href="">Acerca de Disney+</a>
+                    <li className='footer_link'>
+                        <a className='link_item' href="">Acerca de Disney+</a>
                     </li>
-                    <li className="text-sm-center text-center footer_links_item">
-                        <a className='text-decoration-none text-white links' href="">Publicidad personalizada</a>
+                    <li className='footer_link'>
+                        <a className='link_item' href="">Publicidad personalizada</a>
                     </li>
                 </ul>
             </div>
-            <div className='col-sm-10 col-md-6 col-lg-9 footer_content_box text-center'>
-                <p className='footer_content'>Disney+ es un servicio por suscripción de pago, su contenido está sujeto a disponibilidad. El servicio Disney+ es comercializado por Disney DTC LATAM, Inc., 2400 W Alameda AVE., Burbank CA 91521.</p>
+            <div className='footer_item_content'>
+                <div className="footer_content">
+                    <p className='footer_content_text'>Disney+ es un servicio por suscripción de pago, su contenido está sujeto a disponibilidad. El servicio Disney+ es comercializado por Disney DTC LATAM, Inc., 2400 W Alameda AVE., Burbank CA 91521.</p>
+                </div>
             </div>
-            <div className='col-sm-10 col-md-6 col-lg-9 footer_content_box text-center'>
-                <p className='footer_content'>©  Disney. Todos los derechos reservados.</p>
+            <div className="footer_item_content footer_end">
+                <div className="footer_end_item">
+                    <p className='footer_end_text'>© Disney. Todos los derechos reservados.</p>
+                </div>
             </div>
         </div>
     </div>

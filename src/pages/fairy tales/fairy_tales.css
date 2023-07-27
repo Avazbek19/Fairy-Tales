@@ -1,26 +1,53 @@
-.main-carousels {
+.carousels_section {
+  position: relative;
+  padding: 0px 16px;
   background: #1A1D29;
 }
 
-.title_fairy {
-  line-height: 23.46px;
+.title_tales {
+  font-family: Work Sans;
   font-weight: 700;
   font-size: 20px;
-  font-family: Work Sans;
+  line-height: 23.46px;
   color: white;
-  margin-bottom: 16px;
+  margin: 0;
 }
 
-.responsive-img {
-  max-width: 100%;
-  height: auto;
-  margin: 10px 50px;
-}
-  
-.carousel {
-  margin-bottom: 56px;
+.uz_title {
+  position: absolute;
+  top: -215px;
+  right: 16px;
+  left: 16px;
 }
 
-.last_carousel {
-  margin-bottom: 54px;
+.euro_title {
+  padding-top: 17px;
+}
+
+/* top 56 => 50 */
+.east_title {
+  margin-top: 50px;
+}
+
+.doc_title {
+  margin-top: 51px;
+}
+
+.infin_title {
+  margin-top: 52px;
+}
+
+.box_carousel {
+  margin-top: 16px;
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* For iOS support */
+}
+
+.carousel_boxes {
+  flex: 0 0 240px;
+  scroll-snap-align: start;
 }

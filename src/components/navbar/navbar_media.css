@@ -1,11 +1,14 @@
-@media (max-width: 768px) {
-    .bg-round {
-      /* background: transparent; */
-    }
-  }
+/* For iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   
-  @media (max-width: 480px) {
-    .bg-round {
-        /* background: rgba(0, 0, 0, 0.267); */
-    }
+}
+
+/* For Mobile Phones */
+@media only screen and (max-width: 767px) {
+  
+}
+
+/* For Laptops */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  
 }

@@ -1,17 +1,16 @@
 @media (max-width: 768px) {
-    .content {
-      margin: 300px 0px 0px 0px;
-    }
-    .content_img {
-        width: 100%;
+    .movie_content {
+        margin-top: 286px;
+        margin-bottom: 322px;
+        /* background-color: red;
+        display: none; */
     }
   }
   
   @media (max-width: 480px) {
-    .content {
-        margin: 100px 0px 0px 0px;
+    .movie_content {
+        margin-top: 186px;
+        margin-bottom: 222px;
+        /* background-color: rgb(0, 255, 38); */
     }
-    .content_img {
-        width: 50%;
-    }
-}
+}  

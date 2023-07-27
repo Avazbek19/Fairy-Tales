@@ -1,45 +1,65 @@
-.for-img {
-    width: 24px;
-    height: 24px;
-    padding-bottom: 28px;
+.navbar {
+    display: flex;
+    align-items: center !important;
+    padding: 0 !important;
+    justify-content: left !important;
 }
 
 .main-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: fixed;
+    z-index: 10;
     right: 0;
-    z-index: 1;
+    left: 80px;
+    /* top: 50px; */
 }
 
-.main-icon {
-    width: 79.06px;
-    height: 48px;
-    margin-right: 12px;
-    margin-bottom: 20px;
+.nav_menu {
+    margin-left: 23.94px !important;
+    margin-top: 20px;
 }
 
-.icons-base-child {
+.nav_menu_item {
+    /* padding: 10.5px 16px; */
+    padding: 8px 16px;
+    display: flex;
     gap: 8px;
+    cursor: pointer;
+    height: 40px;
 }
 
-.icons-base {
-    margin-left: 23.94px;
+.nav_icon {
+    width: 79.06px !important;
+    height: 48px !important;
 }
 
-.home-icon {
-    width: 19px;
-    height: 19px;
-}
-
-.icon_text {
-    margin: 0;
-    padding: 0;
-    font-family: Work Sans;
+.link_text {
+    color: white;
+    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
 }
 
-.nav-link {
-    gap: 8px;
+.nav_icon_item_home {
+    width: 127px;
+}
+
+.nav_icon_item_tv {
+    width: 179px;
+}
+
+.nav_icon_item_movie {
+    width: 171px;
+}
+
+.nav_icon_item_star {
+    width: 151px;
+}
+
+.nav_icon_item_star1 {
+    width: 144px;
+}
+
+.nav_menu_item:hover a {
+    transition: 0.5s    ;
+    color: #02E7F5;
 }

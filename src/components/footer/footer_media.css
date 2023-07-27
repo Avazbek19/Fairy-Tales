@@ -3,13 +3,19 @@
         width: calc(100% / 6);
     }
     .footer_content {
-        /* width: 456px;     */
+        width: 456px;    
+    }
+    .nav_logo {
+        padding-bottom: 28px;
     }
   }
   
   @media (max-width: 480px) {
     .footer_links_item {
-        /* margin: 0px 10px; */
+        margin: 0px 10px;
         width: calc(100% - 20px);
+    }
+    .nav_logo {
+        padding-bottom: 0px;
     }
 }

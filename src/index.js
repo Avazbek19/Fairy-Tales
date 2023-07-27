@@ -7,14 +7,17 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap'
 import HomePage from './pages/home/home_page';
+import A from './pages/sinov jpt/a';
+import Footer from './components/footer/footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App/>}>
+      <Route path='' element={<App/>}>
         <Route path='/' element={<HomePage/>}/>
+        <Route path='/a' element={<A/>}/>
       </Route>
     </Routes>
   </BrowserRouter>
