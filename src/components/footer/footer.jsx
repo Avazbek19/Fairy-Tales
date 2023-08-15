@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../../assets/logo.png'
 import './footer.css'
 import './footer_media.css'
 
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className="footer_item_box">
             <div className="img_icon">
                 <div className="footer_item_icon">
-                    <img className='w-100' src="/logo.png" alt="logo" />
+                    <img className='w-100' src={logo} alt="logo" />
                 </div>
             </div>
             <div className="footer_item_links">

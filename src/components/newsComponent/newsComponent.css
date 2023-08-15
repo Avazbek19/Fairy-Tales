@@ -1,0 +1,18 @@
+.news-main {
+    background: var(--main-backround-color);
+    padding: 200px 0 0 0;
+}
+
+.news-item-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+}
+
+.news-contents {
+    width: 852px;
+}
+
+.news-advertising {
+    width: 285px;
+}

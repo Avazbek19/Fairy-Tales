@@ -1,14 +1,44 @@
-/* For iPad */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  
-}
+@media (max-width: 800px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        justify-content: left;
+    }
+    
+    .main-nav {
+        position: absolute;
+        z-index: 10;
+        right: 0;
+        left: 80px;
+    }
 
-/* For Mobile Phones */
-@media only screen and (max-width: 767px) {
-  
+    .toggle-btn {
+        display: block;
+    }
+    
+    .open {
+        display: none;
+    }
 }
-
-/* For Laptops */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
   
+@media (max-width: 480px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        justify-content: left;
+    }
+    
+    .main-nav {
+        position: absolute;
+        z-index: 10;
+        right: 0;
+        left: 80px;
+        /* top: 50px; */
+    }
+
+    .toggle-btn {
+        display: block;
+    }
 }

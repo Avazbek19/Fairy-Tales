@@ -1,0 +1,141 @@
+.carousels_section {
+  width: 100%;
+  position: relative;
+  padding: 0px 16px;
+  background: var(--main-backround-color);
+}
+
+.some_carousels {
+  position: relative;
+  top: -235px;
+  z-index: 1;
+}
+
+.title_tales {
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.46px;
+  color: white;
+  margin: 0;
+}
+
+.uz_title {
+  /* position: absolute; */
+  top: -215px;
+  right: 16px;
+  left: 16px; 
+  padding-top: 20px;
+  letter-spacing: 1px;
+}
+
+.euro_title {
+  margin-top: 50px;
+  letter-spacing: 1.44px;
+}
+
+.other_title {
+  padding-top: 52px;
+  letter-spacing: 1px;
+}
+
+
+.box_carousel {
+  margin-top: 16px;
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* For iOS support */
+}
+
+.carousel_img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel_boxes {
+  border-radius: 8px;
+  position: relative;
+  flex: 0 0 240px;
+  height: 360px;
+  overflow-y: hidden;
+  scroll-snap-align: start;
+  border: none;
+}
+
+.carousel_box {
+  border-radius: 8px;
+  position: relative;
+  flex: 0 0 240px;
+  height: 136px;
+  overflow-y: hidden;
+  scroll-snap-align: start;
+  border: none;
+}
+
+.img-box {
+  width: 240px;
+  height: 361px;
+}
+
+.img-boxes {
+  width: 240px;
+  height: 136px;
+}
+
+
+.img-name {
+  text-transform: uppercase;
+  margin-top: 150px;
+  width: 100%;  
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: var(--main-font-family);
+}
+
+.img-names {
+  text-transform: uppercase;
+  margin-top: 50px;
+  width: 100%;  
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: var(--main-font-family);
+}
+
+.carousel_box:hover .content-name {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.594);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+.carousel_boxes:hover .content-name {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.594);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+.no-item {
+  display: flex;
+  align-items: center;
+  height: 136px;
+  font-size: 20px;
+  font-family: var(--main-font-family);
+  color: var(--main-color);
+  font-weight: 500;
+}

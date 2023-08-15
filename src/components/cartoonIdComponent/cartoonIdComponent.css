@@ -1,0 +1,70 @@
+.cartoons-by-id-main {
+    padding: 224px 0 0 0;
+    background: var(--main-backround-color);
+}
+
+.cartoons-by-id-top {
+    margin: 0 71.24px 0 77.76px;
+    display: flex;
+    gap: 37px;
+}
+
+.catoons-by-id-images {
+    height: 275.4px;
+    width: 512px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.cartoons-by-id-contents-btn {
+    width: 152px;
+    border: none;
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 4px;
+    gap: 12px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.cartoons-by-id-contents {
+    margin-bottom: 180px;
+}
+
+.cartoons-by-id-contents p {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 36px 0 0 0;
+}
+
+.cartoons-by-id-contents-btn span {
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.77px;
+    color: rgba(26, 29, 41, 1);
+}
+
+.cartoons-by-id-title {
+    margin: 0 0 50px 0;
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cartoons-by-id-content-text {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 36px 0 0 0;
+    text-align: center;
+}

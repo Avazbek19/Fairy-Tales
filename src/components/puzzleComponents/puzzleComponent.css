@@ -1,0 +1,111 @@
+.puzzle-main {
+    background: var(--main-backround-color);
+    padding-top: 199px;
+}
+
+.puzzle {
+    padding-top: 64px;
+    padding-left: 79px;
+    padding-right: 147.5px;
+}
+
+.puzzle-child {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 38px;
+}
+
+.puzzle-content {
+    width: 1046px;
+    height: 150px;
+}
+
+.up-svg {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+
+.down-svg {
+    position: absolute;
+    left: 7px;
+    bottom: 0;
+}
+
+.puzzle-content-text {
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-size: 20px;
+    line-height: 23.46px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+
+.puzzle-answer {
+    margin-right: 3px;
+    font-family: var(--main-font-family);
+    color: #02E7F5;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.puzzle-answer-text {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-style: 16px;
+    line-height: 18.77px;
+}
+
+.line {
+    margin-top: 38px;
+}
+
+.paggination {
+    margin-top: 153px;
+    padding-bottom: 123.21px;
+}
+
+.arrow-btn {
+    padding: 0px 10px;
+}
+
+.arrow-btn i {
+    font-size: 30px;
+}
+
+.button-group {
+    width: 415.44px;
+    display: flex;
+    gap: 16px;
+}
+
+.btn-groups {
+    color: #02E7F5;
+    transition: 0.5s;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.btn-groups:hover {
+    transition: 0.5s;
+    background: #02E7F5;
+    color: white;
+}
+
+.number-btn {
+    padding: 0px 16px;
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.46px;
+}
+
+.active {
+    transition: 0.5s;
+    background-color: #02E7F5;
+    color: white;
+}
