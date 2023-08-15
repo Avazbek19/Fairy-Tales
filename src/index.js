@@ -15,6 +15,7 @@ import Cartoons from './pages/cartoons/cartoons';
 import Cartoon_mp4 from './components/fairyTaleVidioComponent/cartoon_mp4';
 import CartoonIdComponent from './components/cartoonIdComponent/cartoonIdComponent';
 import News from './pages/news/news';
+import NewsByIdComponent from './components/newsByIdComponent/newsByIdComponent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,6 +30,7 @@ root.render(
         <Route path='/topishmoqlar' element={<Puzzle/>}/>
         <Route path='/multifilmlar' element={<Cartoons/>}/>
         <Route path='/yangiliklar' element={<News/>}/>
+        <Route path='/yangilik/:name' element={<NewsByIdComponent/>}/>
         <Route path='/multifilm/:id' element={<CartoonIdComponent/>}/>
       </Route>
         <Route path='/video/:id' element={<Cartoon_mp4/>}/>

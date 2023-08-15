@@ -7,12 +7,60 @@
     display: flex;
     flex-wrap: wrap;
     gap: 120px;
+    padding: 0 94px 0 89px;
 }
 
-.news-contents {
+.news-content-box {
     width: 852px;
 }
 
 .news-advertising {
     width: 285px;
+}
+
+.news-content-boxes {
+    border-radius: 12px;
+    background: rgba(37, 57, 76, 1);
+    padding: 1px 0 10px 0;
+    margin-top: 49px !important;
+}
+
+.news-content-box-title {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.92px;
+    margin: 31px 0 0 28px;
+}
+
+.news-content-box-items {
+    margin: 9px 0 0 28px;
+    gap: 8px;
+}
+
+.news-content-box-text {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18.77px;
+    margin: 26px 0 0 28px;
+}
+
+.news-content-box-btn {
+    border-radius: 50px;
+    margin: 9px 0 0 28px;
+    background: rgba(27, 35, 66, 1);
+    border: none;
+    padding: 5px 18px 9px 18px;
+}
+
+.calendar-icon {
+    color: white;
+    margin-right: 9px;
+}
+
+.calendar-date {
+    color: white;
 }

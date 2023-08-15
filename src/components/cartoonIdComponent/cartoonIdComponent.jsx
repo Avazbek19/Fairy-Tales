@@ -7,7 +7,7 @@ import './cartoonIdComponent.css'
 
 export default function CartoonIdComponent() {
     const {state} = useLocation()
-    console.log('state =>',state);
+    // console.log('state =>',state);
   return (
     <section className='cartoons-by-id-main'>
         <p className='cartoons-by-id-title'>{state.name}</p>
